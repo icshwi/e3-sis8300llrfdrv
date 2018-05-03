@@ -29,9 +29,15 @@
 
 include $(E3_REQUIRE_TOOLS)/driver.makefile
 
-# APP:=calcApp
+APP:=src/main/c
 # APPDB:=$(APP)/Db
-# APPSRC:=$(APP)/src
+APPSRC:=$(APP)/lib
+APPINC:=$(APP)/include
+
+SOURCES += $(wildcard $(APPSRC)/*.c)
+
+HEADERS += $(wildcard $(APPINC)/*.h) 
+HEADERS += $(wildcard $(APPSRC)/*.h)
 
 
 # USR_INCLUDES += -I$(where_am_I)$(APPSRC)
