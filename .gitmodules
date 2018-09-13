@@ -1,4 +1,4 @@
 [submodule "m-kmod-sis8300llrf"]
 	path = m-kmod-sis8300llrf
 	url = https://bitbucket.org/europeanspallationsource/m-kmod-sis8300llrf
-	ignore = all
+	ignore = dirty
