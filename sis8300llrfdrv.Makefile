@@ -26,7 +26,7 @@
 
 where_am_I := $(dir $(abspath $(lastword $(MAKEFILE_LIST))))
 include $(E3_REQUIRE_TOOLS)/driver.makefile
-include $(where_am_I)/../configure/DECOUPLE_FLAGS
+include $(E3_REQUIRE_CONFIG)/DECOUPLE_FLAGS
 
 ifneq ($(strip $(SIS8300DRV_DEP_VERSION)),)
 sis8300drv_VERSION=$(SIS8300DRV_DEP_VERSION)
@@ -52,3 +52,7 @@ db:
 
 .PHONY: db 
 
+#
+.PHONY: vlibs
+vlibs:
+#
