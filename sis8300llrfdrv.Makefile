@@ -33,12 +33,6 @@ sis8300drv_VERSION=$(SIS8300DRV_DEP_VERSION)
 endif
 
 
-
-
-EXCLUDE_ARCHS += linux-ppc64e6500 
-
-
-
 APP:=src/main/c
 APPSRC:=$(APP)/lib
 APPINC:=$(APP)/include

@@ -1,0 +1,9 @@
+diff --git src/main/c/lib/sis8300llrf_control_tables.c src/main/c/lib/sis8300llrf_control_tables.c
+index a229132..1cdd50b 100644
+--- src/main/c/lib/sis8300llrf_control_tables.c
++++ src/main/c/lib/sis8300llrf_control_tables.c
+@@ -1,3 +1,4 @@
++#include <stdio.h>
+ #include <stdint.h>
+ 
+ #include <sis8300drv.h>
