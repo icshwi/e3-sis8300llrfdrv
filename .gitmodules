@@ -1,4 +1,3 @@
-[submodule "m-kmod-sis8300llrf"]
-	path = m-kmod-sis8300llrf
-	url = https://bitbucket.org/europeanspallationsource/m-kmod-sis8300llrf
-	ignore = dirty
+[submodule "sis8300llrfdrv"]
+	path = sis8300llrfdrv
+	url = https://gitlab.esss.lu.se/epics-modules/sis8300llrfdrv.git
